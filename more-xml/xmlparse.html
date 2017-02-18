@@ -1,52 +1,9 @@
 <html>
-
 <body>
-  <p id="demo">Hi</p>
-
-<script type='text/javascript'>
-
-text = "<ORDER>"+
-" <PERSON>John Smith</PERSON>"+
-" <SHIPTO>"+
-" <NAME>Ola Nordmann</NAME>"+
-" <ADDRESS>Langgt 23</ADDRESS>"+
-" <CITY>400 Stavanager</CITY>"+
-" <COUNTRY>Norway</COUNTRY>"+
-" </SHIPTO>"+
-" <ITEMS>"+
-" <ITEM>"+
-" <NAME>Item 1</NAME>"+
-" <TITLE>Empire Burlesque</TITLE>"+
-" <ID>001</ID>"+
-" <NOTE>Special Edition</NOTE>"+
-" <QUANTITY>1</QUANTITY>"+
-" <PRICE>10.90</PRICE>"+
-" </ITEM>"+
-" <ITEM>"+
-" <NAME>Item 2</NAME>"+
-" <TITLE>Hide Your Heart</TITLE>"+
-" <ID>002</ID>"+
-" <QUANTITY>2</QUANTITY>"+
-" <PRICE>9.90</PRICE>"+
-" </ITEM>"+
-" </ITEMS>"+
-" <ORDERTOTAL></ORDERTOTAL>"+
-"</ORDER>";
-
-parser = new DOMParser();
-xmlDoc = parser.parseFromString(text,"text/xml");
-
-// Write HTML output
-// document.write("<b>XML Root Tag Name: " + xmlDoc.tagName + "<br/><br/><br/>");
-
-var rootChildren = xmlDoc.childNodes;
-
-document.getElementById("demo").innerHTML =
-  xmlDoc.getElementsByTagName("PERSON")[0].childNodes[0].nodeValue;
-
-
-
-</script>
+  
+  <p id="demo"></p>
+  
+  <script src="js/parse.js" type="text/javascript"></script>
 
 </body>
 </html>
