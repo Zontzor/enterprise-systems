@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ORDER>
+  <ORDERID>1786</ORDERID>
+  <FUFILLER>John</FUFILLER>
+  <SHIPTO>
+    <NAME>Joe Blow Ltd</NAME>
+    <ADDRESS>
+      <ADDRESS1>56</ADDRESS1>
+      <ADDRESS2>Fake Street</ADDRESS2>
+      <CITY>Tenby</CITY>
+      <COUNTRY>Wales</COUNTRY>
+    </ADDRESS>
+  </SHIPTO>
+  <ITEMS>
+    <ITEM>
+      <TITLE>Kettle</TITLE>
+      <ID>K012BL</ID>
+      <QUANTITY>5</QUANTITY>
+      <PRICE>56</PRICE>
+    </ITEM>
+    <ITEM>
+      <TITLE>Oven</TITLE>
+      <ID>ON087GR</ID>
+      <QUANTITY>1</QUANTITY>
+      <PRICE>204</PRICE>
+    </ITEM>
+  </ITEMS>
+</ORDER>
