@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<CATALOGUE>
+  <CD>
+  	<TITLE>Watch the Throne</TITLE>
+  	<ARTIST>Jay-Z</ARTIST>
+    <COMPANY>Roc-A-Fella</COMPANY>
+    <PRICE>15</PRICE>
+    <YEAR>2011</YEAR>
+  	<TRACKS>
+  		<TRACK>No Church in the Wild</TRACK>
+  		<TRACK>Lift Off</TRACK>
+  		<TRACK>Niggas in Paris</TRACK>
+  		<TRACK>Otis</TRACK>
+  </TRACKS>
+  </CD>
+  <CD>
+  	<TITLE>Purpose</TITLE>
+  	<ARTIST>Justin Bieber</ARTIST>
+    <COMPANY>Def Jam</COMPANY>
+    <PRICE>12</PRICE>
+    <YEAR>2015</YEAR>
+  	<TRACKS>
+  		<TRACK>What Do You Mean?</TRACK>
+  		<TRACK>Sorry</TRACK>
+  		<TRACK>Love Yourself</TRACK>
+  		<TRACK>Where Are You Now?</TRACK>
+  </TRACKS>
+  </CD>
+</CATALOGUE>
