@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ORDER>
+  <PERSON>John Smith</PERSON>
+  <SHIPTO>
+    <NAME>Ola Nordmann</NAME>
+    <ADDRESS>Langgt 23</ADDRESS>
+    <CITY>400 Stavanager</CITY>
+    <COUNTRY>Norway</COUNTRY>
+  </SHIPTO>
+  <ITEMS>
+    <ITEM>
+      <NAME>Item 1</NAME>
+      <TITLE>Empire Burlesque</TITLE>
+      <ID>001</ID>
+      <NOTE>Special Edition</NOTE>
+      <QUANTITY>1</QUANTITY>
+      <PRICE>10.90</PRICE>
+    </ITEM>
+    <ITEM>
+      <NAME>Item 2</NAME>
+      <TITLE>Hide Your Heart</TITLE>
+      <ID>002</ID>
+      <QUANTITY>2</QUANTITY>
+      <PRICE>9.90</PRICE>
+    </ITEM>
+  </ITEMS>
+  <ORDERTOTAL>30.70</ORDERTOTAL>
+</ORDER>
