@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<invoice 
+  xmlns="http://www.dit.ie"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="invoice.xsd">
+  
+  <invoicenumber>1234</invoicenumber>
+  <invoicedate>01/03/2017</invoicedate>
+  <invoicetotal>600</invoicetotal>
+  <issuedby>Bob</issuedby>
+  <billto>
+    <name>Alex</name>
+    <address>123 Fake St.</address>
+  </billto>  
+  <item>
+    <name>Caad 10 Road Bike</name>
+    <price>699.99</price>
+    <quantity>1</quantity>
+  </item>
+  <paymentinformation>Visa</paymentinformation>
+</invoice>

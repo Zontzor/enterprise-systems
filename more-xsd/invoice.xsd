@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xs:schema 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.dit.ie"
+  xmlns="http://www.dit.ie"
+  elementFormDefault="qualified">
+  
+  <xs:element name="invoice">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="invoicenumber" type="xs:integer"/>
+        <xs:element name="invoicedate" type="xs:string"/>
+        <xs:element name="invoicetotal" type="xs:integer"/>
+        <xs:element name="issuedby" type="xs:string"/>
+
+        <xs:element name="billto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="address" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="item" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name"/>
+              <xs:element name="price"/>
+              <xs:element name="quantity"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="paymentinformation" type="xs:string"/>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
