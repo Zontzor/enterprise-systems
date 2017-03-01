@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet 
+  type="text/xsl" 
+  href="note.xsl"?>
+  
+<notes>
+  <note>
+    <to>Mary</to>
+    <from>Abdul</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+  </note>
+  <note>
+    <to>Bill</to>
+    <from>Joe</from>
+    <heading>Reminder</heading>
+    <body>Took your stapler</body>
+  </note>
+  <note>
+    <to>Joe</to>
+    <from>Bill</from>
+    <heading>Reminder</heading>
+    <body>Kill Bill!</body>
+  </note>
+</notes>
