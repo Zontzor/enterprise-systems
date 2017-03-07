@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<order_document orderid="889923" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="order_company_B.xsd">
+  <responsible_person>John Smith</responsible_person>
+  <parties><ship_to><name>Ola Nordmann</name><address><address_line>4000 Langgt 23</address_line><city>Stavanger</city><country>Norway</country></address></ship_to></parties>
+</order_document><items><name>Item 1</name><title>Empire Burlesque</title><id>001</id><note>Special Edition</note><quantity>1</quantity><price>10.90</price>
+<name>Item 2</name><title>Hide your heart</title><id>002</id><note/><quantity>2</quantity><price>9.90</price></items><quantity_total>3</quantity_total><order_total>20.8</order_total></order_document>
